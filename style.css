@@ -4,9 +4,30 @@
 
 header {
     background: url("images/logo.png") no-repeat;
+    height: 5em;
+    margin-left: 2em;
 }
 nav {
     float: right;
+}
+
+nav a {
+  color: #808589;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 1em;
+}
+
+.signin {
+  background-color: #0DBFDD;
+  border: 1px solid #0DBFDD;
+  text-align: center;
+  padding: .5em;
+  border-radius: 10px;
+}
+.signin a {
+  padding: 0;
+  color: #fff;
 }
 
 body {
@@ -35,9 +56,33 @@ h1 {
     background: url("images/main_image.png") no-repeat;
     width: 1440px;
     height: 600px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+#mission div {
+  position: absolute;
+  bottom: 1em;
+}
+/*
+#mission h1 {
+    padding-top: 10em;
+}*/
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .workwithus {
     text-align: center;
     background: url("images/work_with_us_button.png") no-repeat;
+}
+
+.hir {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
 }
